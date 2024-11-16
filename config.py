@@ -7,7 +7,7 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = API_ID
+API_ID = "API_ID"
 API_HASH = "API_HASH"
 
 # Get your token from @BotFather on Telegram.
@@ -19,10 +19,10 @@ MONGO_DB_URI = "MONGO_DB_URI"
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = LOG_GROUP_ID
+LOG_GROUP_ID = "LOG_GROUP_ID"
 
 # Get this value from @ultron2_robot on Telegram by /id
-OWNER_ID = OWNER_ID
+OWNER_ID = "OWNER_ID"
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -57,7 +57,7 @@ PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 25))
 
 # Telegram audio and video file size limit (in bytes)
 TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", 104857600))
-TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
+TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 4145386496))
 # Checkout https://www.gbmb.org/mb-to-bytes for converting mb to bytes
 
 
